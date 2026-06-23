@@ -1,0 +1,8 @@
+- [LEX backend stack](lex-backend.md) — Groq (llama-3.3-70b + whisper-large-v3-turbo), ElevenLabs TTS, Replit PostgreSQL, Stanbic payments sandbox
+- [LEX orb positioning](lex-orb.md) — NavDock now has showOrb prop; never use absolute positioned orbs over content
+- [LEX Settings Architecture](lex-settings.md) — settings in localStorage `lex-settings-v1` via `lib/settings.ts`; applied to DOM via `applyAllSettings()` on mount and change
+- [LEX Voice System](lex-voice.md) — ElevenLabs → Browser SpeechSynthesis fallback in speakReply(); Groq → Browser SpeechRecognition fallback in startVoice(); voiceId from settings
+- [LEX Lock System](lex-lock.md) — lock config in localStorage `lex-lock-v1`; LockState gates all screens in index.tsx; Face ID uses WebAuthn platform authenticator
+- [LEX Quota & Paywall](lex-quota.md) — free tier 10 msgs/day in localStorage `lex-quota-v1`; quota checked in sendMessage before API call; paywall/payment are full screens; plans in lib/quota.ts PLANS array
+- [LEX 6-Feature System](lex-features.md) — Memory Tree, Permissions, Analysis, Universal Search, Emergency (all wired in index.tsx); orb hold=emergency; screen time in localStorage batch flushed to /api/analysis; memories auto-extracted after each chat exchange via /api/memory
+- [LEX Lock Screen Features](lex-lockscreen.md) — 8 wallpapers + blur + animations + quick apps (free); AI Widgets+Context Cards (Pro); Reminders+Daily Briefing (Plus); Goal Tracking (Ultra); lib/lock-screen-settings.ts; settings-panel.tsx embedded in settings.tsx

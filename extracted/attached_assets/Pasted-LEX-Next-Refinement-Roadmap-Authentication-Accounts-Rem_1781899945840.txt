@@ -1,0 +1,100 @@
+LEX — Next Refinement Roadmap
+
+Authentication & Accounts
+
+- Remove recurring Clerk re-authentication.
+- Keep users signed in securely.
+- Add Terms of Service and Privacy Policy acceptance during onboarding.
+- Ask users for personalization preferences after account creation.
+- Store every user's account, settings, memories, conversations, and preferences in the database.
+- Add Premium activation code support until payment integration is available.
+
+---
+
+Launcher Integration
+
+- Request Default Launcher permission.
+- Integrate Lex as the device's launcher.
+- Quick Settings tiles should control the real phone (Wi-Fi, Bluetooth, Flashlight, Do Not Disturb, etc.).
+- Make launcher integration seamless after installation.
+
+---
+
+AI Experience
+
+- Replace the Always Listening microphone with the animated Lex Orb.
+- Improve Orb positioning to prevent overlap with UI elements.
+- Refine all Orb animations (Idle, Listening, Thinking, Speaking, Acting).
+- Improve voice output so it ignores Markdown symbols, asterisks, emojis where appropriate, and reads naturally.
+- Add interruption support while Lex is speaking.
+- Make conversations feel faster and more natural.
+
+---
+
+Context & Intelligence
+
+- Fix weather retrieval and display.
+- Improve current context detection.
+- Better screen understanding suggestions.
+- Improve memory retrieval.
+- Smarter suggested actions based on current activity.
+
+---
+
+UI & UX
+
+- Add smooth swipe gestures.
+- Add physics-based scrolling.
+- Improve page transitions.
+- Add subtle haptic feedback.
+- Improve animations throughout the app.
+- Reduce visual clutter.
+- Increase spacing where needed.
+- Make the interface feel more premium and fluid.
+
+---
+
+Settings
+
+- Personalize the launcher during onboarding.
+- Theme selection.
+- Orb customization.
+- Voice selection.
+- Privacy controls.
+- AI permissions dashboard.
+- Notification controls.
+
+---
+
+Performance
+
+- Reduce unnecessary API calls.
+- Cache responses where appropriate.
+- Improve startup speed.
+- Reduce memory usage.
+- Optimize launcher responsiveness.
+
+---
+
+Future Features
+
+- Screen understanding overlays.
+- Universal search.
+- AI automations.
+- Background assistant.
+- Cross-app actions.
+- AI routines.
+- Premium subscription integration.
+- Google Play Billing support.
+- Cloud sync.
+- Cross-device memory.
+
+---
+
+Long-Term Goal
+
+Every interaction with Lex should answer one question:
+
+"How can I help you right now?"
+
+Lex should feel like an intelligent operating layer that quietly understands the user's context instead of simply waiting for prompts.
